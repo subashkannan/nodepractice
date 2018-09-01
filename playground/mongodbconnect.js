@@ -17,8 +17,7 @@ MongoClient.connect('mongodb://localhost:27017/Users',{ useNewUrlParser: true },
    //   console.log(JSON.stringify(result.ops,undefined,2));
    // });
    db.collection('Users').insertOne({
-     Name : "Inba",
-     ID   : 2016103533
+     Name : "Barath",
    },(err,result)=>{
      if(err){
        return console.log("Error occured");
